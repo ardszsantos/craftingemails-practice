@@ -14,7 +14,11 @@ const FirstPage = () => {
                 Get ready-made HTML templates for a small price. <br/>
                 or order a bespoke email templates.
             </p>
-            <a href="craftingemails.com" className="text-blue-600 underline mt-[32px]">craftingemails.com</a>
+            <div className="flex gap-5 mt-[32px]">
+                <a href="craftingemails.com" className="text-blue-600 underline">craftingemails.com</a>
+                <a href="/cover" className="text-blue-600 underline">See more</a>
+            </div>
+            
         </div>
     );
 }
